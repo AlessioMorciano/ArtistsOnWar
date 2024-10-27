@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artists on War</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+	<meta charset="utf-8">
+
+	<!-- Metadati DC -->
+	<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
+	<meta name="DC.Title" CONTENT="Artists on War"/>
+	<meta name="DC.Creator" CONTENT="Alessio Morciano"/>
+	<meta name="DC.Subject" CONTENT="opere artisti prima guerra mondiale"/>
+	<meta name="DC.Description" CONTENT="sito che raccoglie le opere d'arte realizzate da artisti che hanno partecipato attivamente alla prima guerra mondiale"/>
+	<meta name="DC.Date" content="10/2024">
+	<meta name="DC.Type" content="Immagini">
+	<meta name="DC.Language" content="Italiano">
+
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<a href="index.html">
+    		<img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
+    	</a>
+	</header>
+
+	<!-- Navigazione principale -->
+	<nav>
+      <div class="grid-container">
+        <div class="item1">SCHIERATI!</div>
+        
+        <!-- Dropdown "ALLEATI" -->
+        <div class="item2">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_ALL')" class="dropbtn">Alleati</button>
+            <div id="Dropdown_ALL" class="dropdown-content">
+              <a href="uk_artists.html">REGNO UNITO</a>
+              <a href="#">FRANCIA</a>
+              <a href="#">ITALIA</a>
+              <a href="#">USA</a>
+              <a href="#">RUSSIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dropdown "IMPERI CENTRALI" -->
+        <div class="item3">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_IMP')" class="dropbtn">Imperi Centrali</button>
+            <div id="Dropdown_IMP" class="dropdown-content">
+              <a href="#">GERMANIA</a>
+              <a href="#">AUSTRIA</a>
+              <a href="#">TURCHIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item4">
+        	<button class="dropbtn" onclick="document.location='tema.html'">TEMA BELLICO</button>
+        </div>
+      </div>
+    </nav>
+
+	<!-- Descrizione sito -->
+	<main class="main-container">
+		<div class="bg-main-image"></div>
+	  		<section class="main-text">
+	  			<p>
+	  			Il progetto <strong>Artists on War</strong> prevede la creazione di un sito web dedicato alla raccolta delle <strong>opere d'arte</strong> realizzate da artisti che hanno partecipato alla <strong>Prima Guerra Mondiale</strong>.
+				L'obiettivo è preservare e diffondere la memoria storica attraverso l'espressione artistica del periodo bellico; mettendo in risalto come sia i vinti che i vincitori, da qui la provocazione di raggruppare gli artisti per nazionalità, abbiano rappresentato la brutalità della guerra, nonostante molti di loro fossero interventisti.
+				</p>
+			</section>
+	</main>
+
+	<hr>
+
+	<footer>
+	    <div class="footer">
+	        <a href="AoW_WebProjectPlan.pdf" target="_blank">Web Project Plan</a>
+	        <a href="mailto:alessio.morciano@studio.unibo.it">Contattami!</a>
+	        <a href="percorso/alla/mappa-del-sito.html">Mappa del sito</a>
+	        <p>&copy; 2024 Alessio Morciano. Tutti i diritti riservati.</p>
+	    </div>
+	</footer>
+
+    <script src="js/myJS.js"></script>
+	
+</body>
+
+</html>
