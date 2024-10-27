@@ -1,0 +1,225 @@
+/* font */
+/* .gowun-batang-regular {
+  font-family: "Gowun Batang" !important;
+  font-weight: 400;
+  font-style: normal; 
+} */
+
+body {
+  background-color: lightgray;
+  font-family: "Gowun Batang" !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {  
+ /* font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal; */
+  text-align: center;
+}
+
+.img-header {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main NavBar */
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: #2196F3;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(148, 47, 16);
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start:2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkred;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start:2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgreen;
+}
+
+.item4 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start:1;
+  grid-row-end: 3;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dropdown button */
+.dropbtn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  font-family: "Gowun Batang", serif;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/* main */
+.main-container {
+  margin: 20px;
+  position: relative;
+  height: 400px; /* Puoi regolare l’altezza come preferisci */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg-main-image {
+  position: absolute;
+  width: 100%; /* L'immagine occupa l'80% della larghezza del contenitore */
+  height: 100%;
+  background-image: url('../img/gassed.jpg'); /* Percorso dell'immagine */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.35; /* Imposta l'opacità dell'immagine */
+  z-index: 0;
+}
+
+.main-text {
+  position: relative;
+  width: 60%;
+  z-index: 1;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.footer {
+  background-color: red;
+}
+
+/* breadcrumbs */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.artist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main-artist {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  justify-content: center;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
