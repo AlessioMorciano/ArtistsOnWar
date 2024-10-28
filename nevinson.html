@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artists on War</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+	<meta charset="utf-8">
+
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<a href="index.html">
+    		<img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
+    	</a>
+	</header>
+
+	<!-- Navigazione principale -->
+	<nav>
+      <div class="grid-container">
+        <div class="item1">SCHIERATI!</div>
+        
+        <!-- Dropdown "ALLEATI" -->
+        <div class="item2">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_ALL')" class="dropbtn">Alleati</button>
+            <div id="Dropdown_ALL" class="dropdown-content">
+              <a href="uk_artists.html">REGNO UNITO</a>
+              <a href="#">FRANCIA</a>
+              <a href="#">ITALIA</a>
+              <a href="#">USA</a>
+              <a href="#">RUSSIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dropdown "IMPERI CENTRALI" -->
+        <div class="item3">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_IMP')" class="dropbtn">Imperi Centrali</button>
+            <div id="Dropdown_IMP" class="dropdown-content">
+              <a href="#">GERMANIA</a>
+              <a href="#">AUSTRIA</a>
+              <a href="#">TURCHIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item4">
+        	<button class="dropbtn" onclick="document.location='tema.html'">TEMA BELLICO</button>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Breadcrumbs -->
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="uk_artists.html">Gran Bretagna</a></li>
+    <li>Christopher R.W. Nevinson</li>
+  </ul>
+
+  <button class="button-next-prev">< Prev</button>
+  <button class="button-next-prev" style="float: right;">Next ></button>
+
+  <main>
+    <h1>Christopher R.W. Nevinson</h1>
+      <div class="main-artist">
+          <img src="img\Artisti\Nevinson\Foto_Nev.jpg" alt="foto di Nevinson">
+          <ul>
+            <li><b>Data di Nascita:</b> 13/08/1889</li>
+            <li><b>Data di Morte:</b> 07/010/1946</li>
+            <li><b>Nazione:</b> Gran Bretagna</li>
+            <li><b>Periodo in guerra:</b> Nov/1914 - Gen/1915 || Lug/1917 - Ago/1917</li>
+            <li><b>Ruolo:</b> membro <i>Friends' Ambulance Unit</i> || Artista di guerra</li>
+            <li><b>Movimento artistico:</b> Futurismo, Cubismo</li>
+          </ul>        
+      </div>   
+    <!-- ACCORDION -->
+        <button class="accordion"><h4>Esperienza di guerra</h4></button>
+          <div class="panel">
+          <p>Tra Novembre del 1914 e Gennaio del 1915, Nevinson fu in Francia come membro della Friends' Ambulance Unit, un'unità di volontari volti a prestare soccorso medico ai feriti di guerra; questa esperienza ha ispirato le opere <em>The Doctor</em> e <em>La Patrie</em> che hanno come fulcro la rappresentazione degli affollatissimi ospedali da campo. Fece rientro in patria per via di problemi di salute. Tornò sul campo, come <strong>artista di guerra</strong> ufficiale, nel fronte occidentale. In questo periodo fece esperienza di veri scontri a fuoco, prendendo parte anche a missioni aeree. Fece ritorno in patria a seguito di una reprimenda ricevuta per aver visitato, senza autorizzazione, il campo di battaglia di Ypres. <small>(Fonte: <a href="https://en.wikipedia.org/wiki/C._R._W._Nevinson#World_War_One">Wikipedia</a>)</small></p>
+          </div>
+  </main>
+
+  <!-- Elenco Opere -->
+  <section>
+    <h1>Opere</h1>  
+      <div class="artist-list">
+            <div class="card" style="width: 18rem;">
+            <img src="img\Artisti\Nevinson\Nev_001.jpg" class="card-img-top" alt="Quadro Paths of Glory">
+            <div class="card-body">
+            <h5 class="card-title">Paths of Glory</h5>
+            <a href="paths_of_glory.html" class="btn btn-primary">Dettagli</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="img\Artisti\Nevinson\Nev_002.jpg" class="card-img-top" alt="Quadro A Taube">
+          <div class="card-body">
+            <h5 class="card-title">A Taube</h5>
+            <a href="#" class="btn btn-primary">Dettagli</a>
+          </div>
+        </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img\Artisti\Nevinson\Nev_003.jpg" class="card-img-top" alt="Quadro French Troops Resting">
+        <div class="card-body">
+          <h5 class="card-title">French Troops Resting</h5>
+          <a href="#" class="btn btn-primary">Dettagli</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img\Artisti\Nevinson\Nev_004.jpg" class="card-img-top" alt="Quadro After a Push">
+        <div class="card-body">
+          <h5 class="card-title">After a Push</h5>
+          <a href="#" class="btn btn-primary">Dettagli</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <footer>
+      <div class="footer">
+        <a href="AoW_WebProjectPlan.pdf" target="_blank" title="vai al Web Project Plan">Web Project Plan</a>
+        <a href="mailto:alessio.morciano@studio.unibo.it">Contattami!</a>
+        <a href="mappa.html" title="vai alla mappa del sito">Mappa del sito</a>
+        <p>&copy; 2024 Alessio Morciano. Tutti i diritti riservati.</p>
+      </div>
+  </footer>
+
+  <script src="js/myJS.js"></script>
+	
+</body>
+
+</html>

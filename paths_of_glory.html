@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artists on War</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+	<meta charset="utf-8">
+  <link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
+
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<a href="index.html">
+    		<img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
+    	</a>
+	</header>
+
+	<!-- Navigazione principale -->
+	<nav>
+      <div class="grid-container">
+        <div class="item1">SCHIERATI!</div>
+        
+        <!-- Dropdown "ALLEATI" -->
+        <div class="item2">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_ALL')" class="dropbtn">Alleati</button>
+            <div id="Dropdown_ALL" class="dropdown-content">
+              <a href="uk_artists.html" title="Vai agli artisti inglesi">REGNO UNITO</a>
+              <a href="#">FRANCIA</a>
+              <a href="#">ITALIA</a>
+              <a href="#">USA</a>
+              <a href="#">RUSSIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dropdown "IMPERI CENTRALI" -->
+        <div class="item3">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_IMP')" class="dropbtn">Imperi Centrali</button>
+            <div id="Dropdown_IMP" class="dropdown-content">
+              <a href="#">GERMANIA</a>
+              <a href="#">AUSTRIA</a>
+              <a href="#">TURCHIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item4">
+        	<button class="dropbtn" onclick="document.location='tema.html'">TEMA BELLICO</button>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Breadcrumbs -->
+  <ul class="breadcrumb">
+    <li><a href="index.html" title="Vai alla Home">Home</a></li>
+    <li><a href="uk_artists.html" title="Vai agli artisti inglesi">Gran Bretagna</a></li>
+    <li><a href="nevinson.html" title="Vai alle opere di Nevinson">Christopher R.W. Nevinson</a></li>
+    <li>Paths of Glory</li>
+  </ul>
+
+  <button class="button-next-prev">< Prev</button>
+  <button class="button-next-prev" style="float: right;">Next ></button>
+
+  <main>
+    <h1><span class="DC.title">Paths of glory</span></h1>
+      <div class="main-artist">
+          <img src="img\Artisti\Nevinson\Nev_001.jpg" alt="Paths of Glory di Nevinson">
+          <ul>
+            <li><b>Autore:</b> <span class="DC.Creator">
+              <a href="nevinson.html"> Christopher R.W. Nevinson</a></span></li>
+            <li><b>Soggetto:</b> <span class="DC.Subject">
+              <a href="#"> soldati</a>, <a href="#"> morte</a></span></li>
+            <li><b>Data:</b> <span class="DC.Date">1917</span></li>
+            <li><b>Publisher:</b> <span class="DC.Publisher; DC.Rights;">
+              <a href="https://www.iwm.org.uk/" target="_blank"> Imperial War Museum</a></span></li>
+            <li><b>Tipo:</b> <span class="DC.Type"> Olio su tela</span></li> 
+            <li><b>Formato:</b> <span class="DC.Format"> 610mm x 460mm</span></li>                    
+          </ul>        
+      </div>   
+    <!-- ACCORDION -->
+    <button class="accordion"><h4>Descrizione</h4></button>
+      <div class="panel">
+      <p><span class="DC.Description">Dipinto che ritrae due soldati inglesi che giacciono senza vita sul campo di battaglia vicino al filo spinato. Il titolo dell'opera è una citazione dalla poesia <em>Elegy Written in a Country Churchyard</em>, di Thomas Gray, in cui in un verso si legge <em>'The paths of glory lead but to the grave'</em>.</span></p>
+      </div>
+  </main>
+
+  <hr>
+
+  <footer>
+      <div class="footer">
+        <a href="AoW_WebProjectPlan.pdf" target="_blank" title="vai al Web Project Plan">Web Project Plan</a>
+        <a href="mailto:alessio.morciano@studio.unibo.it">Contattami!</a>
+        <a href="mappa.html" title="vai alla mappa del sito">Mappa del sito</a>
+        <p>&copy; 2024 Alessio Morciano. Tutti i diritti riservati.</p>
+      </div>
+  </footer>
+
+  <script src="js/myJS.js"></script>
+	
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artists on War</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+	<meta charset="utf-8">
+  <link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
+
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<a href="index.html">
+    		<img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
+    	</a>
+	</header>
+
+	<!-- Navigazione principale -->
+	<nav>
+      <div class="grid-container">
+        <div class="item1">SCHIERATI!</div>
+        
+        <!-- Dropdown "ALLEATI" -->
+        <div class="item2">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_ALL')" class="dropbtn">Alleati</button>
+            <div id="Dropdown_ALL" class="dropdown-content">
+              <a href="uk_artists.html" title="Vai agli artisti inglesi">REGNO UNITO</a>
+              <a href="#">FRANCIA</a>
+              <a href="#">ITALIA</a>
+              <a href="#">USA</a>
+              <a href="#">RUSSIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dropdown "IMPERI CENTRALI" -->
+        <div class="item3">
+          <div class="dropdown">
+            <button onclick="myFunction('Dropdown_IMP')" class="dropbtn">Imperi Centrali</button>
+            <div id="Dropdown_IMP" class="dropdown-content">
+              <a href="#">GERMANIA</a>
+              <a href="#">AUSTRIA</a>
+              <a href="#">TURCHIA</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item4">
+        	<button class="dropbtn" onclick="document.location='tema.html'">TEMA BELLICO</button>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Breadcrumbs -->
+  <ul class="breadcrumb">
+    <li><a href="index.html" title="Vai alla Home">Home</a></li>
+    <li>Mappa del sito</li>
+  </ul>
+
+  <h1 style="text-align: left;">Mappa del sito</h1>
+
+  <!-- Albero Mappa -->
+  <ul>
+    <li><a href="index.html">Home</a>
+      <ul>
+        <li><a href="#">Alleati</a>
+          <ul>
+            <li><a href="uk_artists.html" title="Vai agli artisti inglesi">Artisti inglesi</a>
+              <ul>
+                <li><a href="nevinson.html" title="Vai alle opere di Nevinson">Christopher R.W. Nevinson</a></li>
+                  <ul>
+                    <li><a href="paths_of_glory" title="vai all'opera paths of glory di Nevinson">Paths of Glory</a></li>
+                    <li><a href="#" title="vai all'opera a Taube di Nevinson">A Taube</a></li>
+                    <li><a href="#" title="vai all'opera French Troops Resting di Nevinson">French Troops Resting</a></li>
+                    <li><a href="#" title="vai all'opera After a Push di Nevinson">After a Push</a></li>
+                  </ul>
+                <li><a href="#" title="Vai alle opere di Paul Nash">Paul Nash</a></li>
+                <li><a href="#" title="Vai alle opere di John Nash">John Nash</a></li>  
+              </ul>
+            </li>
+            <li><a href="#">Artisti Francesi</a></li>         
+            <li><a href="#">Artisti Italiani</a></li>
+            <li><a href="#">Artisti Americani</a></li>
+            <li><a href="#">Artisti Russi</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Imperi Centrali</a>
+          <ul>
+            <li><a href="#">Artisti Tedeschi</a></li>
+            <li><a href="#">Artisti Austriaci</a></li>
+            <li><a href="#">Artisti Turchi</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Tema Bellico</a>
+          <ul>
+            <li><a href="#">Soldati</a></li>
+            <li><a href="#">Morte</a></li>
+            <li><a href="#">Trincea</a></li>
+            <li><a href="#">Armamenti</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <footer>
+      <div class="footer">
+        <a href="AoW_WebProjectPlan.pdf" target="_blank" title="vai al Web Project Plan">Web Project Plan</a>
+        <a href="mailto:alessio.morciano@studio.unibo.it">Contattami!</a>
+        <a href="mappa.html" title="vai alla mappa del sito">Mappa del sito</a>
+        <p>&copy; 2024 Alessio Morciano. Tutti i diritti riservati.</p>
+      </div>
+  </footer>
+
+  <script src="js/myJS.js"></script>
+	
+</body>
+
+</html>

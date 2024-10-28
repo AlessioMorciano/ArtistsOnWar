@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mappa del Sito</title>
+  <style>
+    /* Stile generale */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Contenitore centrale */
+    .container {
+      width: 80%;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Titolo */
+    h1 {
+      font-size: 24px;
+      color: #2c3e50;
+      text-align: center;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    /* Stile per la lista della mappa del sito */
+    .sitemap ul {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+
+    .sitemap li {
+      margin: 8px 0;
+    }
+
+    /* Stile per i link */
+    .sitemap a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sitemap a:hover {
+      text-decoration: underline;
+    }
+
+    /* Stile per i livelli interni */
+    .sitemap ul ul {
+      margin-left: 20px;
+      padding-left: 5px;
+      border-left: 2px solid #3498db;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mappa del Sito</h1>
+    <div class="sitemap">
+      <ul>
+        <li><a href="index.html">Home</a>
+          <ul>
+            <li><a href="alleati.html">Alleati</a>
+              <ul>
+                <li><a href="artisti_regno_unito.html">Artisti Regno Unito</a>
+                  <ul>
+                    <li><a href="opere_artista_regno_unito.html">Opere dell'Artista Scelto (Regno Unito)</a></li>
+                  </ul>
+                </li>
+                <li><a href="artisti_italiani.html">Artisti Italiani</a>
+                  <ul>
+                    <li><a href="opere_artista_italiano.html">Opere dell'Artista Scelto (Italia)</a></li>
+                  </ul>
+                </li>
+                <li><a href="artisti_francesi.html">Artisti Francesi</a>
+                  <ul>
+                    <li><a href="opere_artista_francese.html">Opere dell'Artista Scelto (Francia)</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
