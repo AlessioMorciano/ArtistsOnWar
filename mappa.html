@@ -16,12 +16,16 @@
 </head>
 
 <body>
-	<!-- header -->
-	<header>
-		<a href="index.html">
-    		<img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
-    	</a>
-	</header>
+  <!-- header -->
+  <header>
+    <a href="index.html">
+      <img src="img/header.png" title="Home" alt="Logo del sito" class="img-header">
+    </a>
+    <div class="language">
+      <a href="#"><img src="img/IT.jpg" alt="bandiera italiana" title="Italiano"></a>
+      <a href="#"><img src="img/EN.jpg" alt="bandiera britannica" title="English"></a>
+    </div>
+  </header>
 
 	<!-- Navigazione principale -->
 	<nav>
@@ -33,7 +37,7 @@
           <div class="dropdown">
             <button onclick="myFunction('Dropdown_ALL')" class="dropbtn">Alleati</button>
             <div id="Dropdown_ALL" class="dropdown-content">
-              <a href="uk_artists.html" title="Vai agli artisti inglesi">REGNO UNITO</a>
+              <a href="uk_artists.html">REGNO UNITO</a>
               <a href="#">FRANCIA</a>
               <a href="#">ITALIA</a>
               <a href="#">USA</a>
@@ -55,14 +59,14 @@
         </div>
         
         <div class="item4">
-        	<button class="dropbtn" onclick="document.location='tema.html'">TEMA BELLICO</button>
+        	<button class="dropbtn" onclick="document.location='tema.html'" id="button_tema">Tema Bellico</button>
         </div>
       </div>
     </nav>
 
   <!-- Breadcrumbs -->
   <ul class="breadcrumb">
-    <li><a href="index.html" title="Vai alla Home">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li>Mappa del sito</li>
   </ul>
 
@@ -74,17 +78,17 @@
       <ul>
         <li><a href="#">Alleati</a>
           <ul>
-            <li><a href="uk_artists.html" title="Vai agli artisti inglesi">Artisti inglesi</a>
+            <li><a href="uk_artists.html">Artisti inglesi</a>
               <ul>
-                <li><a href="nevinson.html" title="Vai alle opere di Nevinson">Christopher R.W. Nevinson</a></li>
+                <li><a href="nevinson.html">Christopher R.W. Nevinson</a></li>
                   <ul>
-                    <li><a href="paths_of_glory" title="vai all'opera paths of glory di Nevinson">Paths of Glory</a></li>
-                    <li><a href="#" title="vai all'opera a Taube di Nevinson">A Taube</a></li>
-                    <li><a href="#" title="vai all'opera French Troops Resting di Nevinson">French Troops Resting</a></li>
-                    <li><a href="#" title="vai all'opera After a Push di Nevinson">After a Push</a></li>
+                    <li><a href="paths_of_glory.html">Paths of Glory</a></li>
+                    <li><a href="#">A Taube</a></li>
+                    <li><a href="#">French Troops Resting</a></li>
+                    <li><a href="#">After a Push</a></li>
                   </ul>
-                <li><a href="#" title="Vai alle opere di Paul Nash">Paul Nash</a></li>
-                <li><a href="#" title="Vai alle opere di John Nash">John Nash</a></li>  
+                <li><a href="#">Paul Nash</a></li>
+                <li><a href="#">John Nash</a></li>  
               </ul>
             </li>
             <li><a href="#">Artisti Francesi</a></li>         
@@ -116,9 +120,9 @@
 
   <footer>
       <div class="footer">
-        <a href="AoW_WebProjectPlan.pdf" target="_blank" title="vai al Web Project Plan">Web Project Plan</a>
+        <a href="AoW_WebProjectPlan.pdf" target="_blank">Web Project Plan</a>
         <a href="mailto:alessio.morciano@studio.unibo.it">Contattami!</a>
-        <a href="mappa.html" title="vai alla mappa del sito">Mappa del sito</a>
+        <a href="mappa.html">Mappa del sito</a>
         <p>&copy; 2024 Alessio Morciano. Tutti i diritti riservati.</p>
       </div>
   </footer>
